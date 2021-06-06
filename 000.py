@@ -1,8 +1,9 @@
-arr=list(input())
-i=0
-while i in range(0,len(arr)):
-    if arr[i]!=' ':
-        print(arr[i])
-    if arr[i]=='q':
+i=1
+sum=0
+n = int(input())
+while True:
+    sum+=i
+    if sum>=n:
+       print(i)
        break
     i+=1
